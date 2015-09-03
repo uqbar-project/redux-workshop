@@ -4,6 +4,9 @@ var config = {
   entry: {
     app: './src/index'
   },
+  devServer: {
+    host: "0.0.0.0"
+  },  
   output: {
     filename: '[name].js',
     path: '/build',
